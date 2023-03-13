@@ -4,19 +4,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
     font-family: "Roboto", sans-serif;
 }
 
 .card {
-    width: 28rem;
-    height: 28rem;
+    width: 25rem;
+    height: 15rem;
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
     position: relative;
     color:rgb(240, 240, 240);
-    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
 }
 
     .card> img {
