@@ -5,6 +5,7 @@ header {
   width: 100%;
   height: 75px;
   z-index: 10;
+  background-color: #11999e;
   background-position: center top;
   background-size: auto 200px;
   background-repeat: repeat-x;
@@ -40,7 +41,7 @@ header {
 nav > a {
   font-family: "Arial", serif;
   font-size: 14px;
-  color: #8c8c8e;
+  color: #e6e6e6;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-decoration: none;
@@ -49,7 +50,8 @@ nav > a {
 
 nav > a.active,
 nav > a:hover {
-  color: #e91e63;
+  color: #fff;
+  font-weight: 600;
 }
  .login {
      width: 72px;
@@ -59,7 +61,7 @@ nav > a:hover {
      top: 27px;
      font-family: "Arial", sans-serif;
      font-size: 14px;
-     color: #8c8c8e;
+     color: #fff;
      text-transform: uppercase;
      letter-spacing: 3px;
      text-decoration: none;
