@@ -7,7 +7,7 @@
 	font-family: Poppins;
 	font-size: 20px;
 	font-weight: 500;
-	padding: 40px;
+	padding: 20px;
 	font-size: 30px;
 }
 .Wrapper::-webkit-scrollbar {
@@ -19,6 +19,7 @@
 	font-weight: 700;
 	margin: 1rem 0;
 	text-transform: uppercase;
+	color: #fff;
 }
 
 .goto {
@@ -37,4 +38,8 @@
 	font-weight: 500;
 	color: #7184ad;
 	font-size: 14px;
+}
+.arrow{
+	color: white;
+    font-size: 20px;
 }

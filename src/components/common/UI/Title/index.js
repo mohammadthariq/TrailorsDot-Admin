@@ -10,7 +10,8 @@ export const Title = ({ title, goto, navigate, color, width }) => {
       {goto ? (
         <div className={styles.goto} onClick={navigate}>
           <p>{goto}</p>
-          <img alt="goto" src="/assets/icons/goto.svg" />
+          <i class='fas fa-arrow-right' style={{color:"white" ,fontSize:"20px"}}></i>
+          {/* <img alt="goto" src="/assets/icons/arroww.png" />  */}
         </div>
       ) : null}
     </div>

@@ -3,12 +3,14 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 75px;
+  height: 90px;
   z-index: 10;
-  background-color: #11999e;
+  padding: 10px;
+  background: linear-gradient(180deg, transparent, #03e9f4);
   background-position: center top;
   background-size: auto 200px;
   background-repeat: repeat-x;
+
 }
 
 .inner {
@@ -58,7 +60,7 @@ nav > a:hover {
      text-align: center;
      position: absolute;
      right: 10px;
-     top: 27px;
+     top: 23px;
      font-family: "Arial", sans-serif;
      font-size: 14px;
      color: #fff;
@@ -68,3 +70,19 @@ nav > a:hover {
      padding-bottom: 6px;
      border-bottom: 2px solid rgba(255, 255, 255, 0.3);
  }
+ .loginActive {
+  width: 72px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  position: absolute;
+  right: 10px;
+  top: 23px;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+  padding-bottom: 6px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
