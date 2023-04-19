@@ -14,7 +14,6 @@ root.render(
     <QueryClientProvider client={queryClient}>
     {window?.location?.pathname === "/login" ? null : <Header />}
     <App />
-    {window?.location?.pathname === "/login" ? null : <Footer />}
     </QueryClientProvider>
   </React.StrictMode>
 );

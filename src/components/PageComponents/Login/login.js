@@ -1,15 +1,10 @@
 import React from "react";
 import styles from "./styles.module.css";
-import { useNavigate } from "react-router-dom";
 
 export const Login = () => {
-  const navigate = useNavigate()
-
-  const handleNavigate = () =>{
-     navigate('/signup')
-  }
   return (
     <div className={styles.Wrapper}>
+      <div className={styles.box}>
       <div className={styles.loginbox}>
         <h2>Welcome Back</h2>
         <p>Login in to Your account using email and password</p>
@@ -30,9 +25,10 @@ export const Login = () => {
             Login
           </a>
         </form>
-        <p>
-          Don't have an account ?&nbsp;<span onClick={handleNavigate} >register</span>
-        </p>
+      </div>
+      <div className={styles.loginboxImage}>
+        <img src="/assets/images/Trailors.png"/>
+      </div>
       </div>
     </div>
   );

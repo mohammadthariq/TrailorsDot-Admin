@@ -6,7 +6,6 @@ import { Home } from "./components/PageComponents";
 import { Createbanner } from "./components/PageComponents/Banner/create";
 import { Createlist } from "./components/PageComponents/List/create";
 import { Login } from "./components/PageComponents/Login/login";
-import { Signup } from "./components/PageComponents/Signup/signin";
 
 function App() {
   return (
@@ -26,7 +25,6 @@ function App() {
           <Route exact path="/createbanner" element={<Createbanner />}></Route>
           <Route exact path="/createlist" element={<Createlist />}></Route>
           <Route exact path="/login" element={<Login />}></Route>
-          <Route exact path="/signup" element={<Signup />}></Route>
 
         </Routes>
       </Router>

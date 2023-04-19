@@ -25,5 +25,6 @@ export const _axios = async (
   })
     .then((res) => res?.data)
     .catch((err) => err);
+    console.log(res, "res");
   return res;
 };

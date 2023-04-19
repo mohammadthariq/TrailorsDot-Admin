@@ -8,7 +8,7 @@ import { useQuery } from "react-query";
 export const Home = () => {
   const navigate = useNavigate();
   const { homeBanners, homeLists } = new HomeApis();
-  const { data } = useQuery(["bannerData"], homeBanners);
+  const { data, isLoading } = useQuery(["bannerData"], homeBanners);
   const { data: listData } = useQuery(["listData"], homeLists);
 
   return (
@@ -26,7 +26,7 @@ export const Home = () => {
           ))}
         </div>
       </div>
-      {/* <div className={styles.upcomingCard}>
+      <div className={styles.upcomingCard}>
         <Title
           title="List"
           color="#ffffff"
@@ -34,11 +34,12 @@ export const Home = () => {
           goto="All List"
         />
         <div className={styles.listscroll}>
+          {/* {listData.response.length === 0 && <p>No Data Found</p>} */}
           {listData.response.map((i, index) => (
             <Card key={i.id} {...i} />
           ))}
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
